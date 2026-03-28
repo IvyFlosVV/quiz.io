@@ -1,0 +1,49 @@
+{
+  "questions": [
+    {
+      "question": "What keyword is used to define a function in Python?",
+      "type": "multiple_choice",
+      "options": ["func", "define", "def", "function"],
+      "answer": "def",
+      "category": "Python Basics"
+    },
+    {
+      "question": "A list in Python is immutable.",
+      "type": "true_false",
+      "answer": "false",
+      "category": "Data Structures"
+    },
+    {
+      "question": "What built-in function returns the number of items in a list?",
+      "type": "short_answer",
+      "answer": "len",
+      "category": "Python Basics"
+    },
+    {
+      "question": "Which of the following is NOT a valid Python data type?",
+      "type": "multiple_choice",
+      "options": ["int", "float", "char", "str"],
+      "answer": "char",
+      "category": "Data Types"
+    },
+    {
+      "question": "Python uses indentation to define code blocks.",
+      "type": "true_false",
+      "answer": "true",
+      "category": "Python Basics"
+    },
+    {
+      "question": "What symbol is used for single-line comments in Python?",
+      "type": "short_answer",
+      "answer": "#",
+      "category": "Syntax"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in Python?",
+      "type": "multiple_choice",
+      "options": ["catch", "except", "handle", "error"],
+      "answer": "except",
+      "category": "Error Handling"
+    }
+  ]
+}

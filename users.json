@@ -1,0 +1,14 @@
+{
+  "u1test": {
+    "salt": "af7fad14d36927977af15cd96675b305",
+    "password_hash": "3203c916e8324e7083419fa5cd3937e5cb1b4f5de24731b5da28b099df625d63"
+  },
+  "demo": {
+    "salt": "9e1ddd8903e3ea9dcfa5a57884969a76",
+    "password_hash": "d3ac01495f92e20f405aafc66658205ee2ab0562468cff1b2c91c4b398f66e82"
+  },
+  "One": {
+    "salt": "7b969443de9422aaed1f280532514ad8",
+    "password_hash": "14b2acc53df0ed21b077697600993e1ce7869cb7b6be43b6accf4fc139965190"
+  }
+}
