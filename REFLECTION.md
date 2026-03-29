@@ -6,7 +6,7 @@ The agent fully implemented my spec. Cursor's agent mode handled all the core fe
 
 ## 2. Where did I intervene?
 
-I barely had to intervene during the build phase. This isn't my first time using this workflow — I've been using a plan-then-delegate approach with Cursor's agent mode in previous projects (breaking tasks into a to-do list, handing it off, then debugging), so writing a spec that an agent can follow cleanly is something I've practiced before. The familiarity helped me write a spec that left fewer ambiguities. The one area where the agent had to make its own judgment calls was the feedback-based question weighting system, where I hadn't specified exact weights. It made reasonable choices there. A more precise spec *could* have pinned that down, but honestly the agent's interpretation was fine.
+I barely had to intervene during the build phase. This isn't my first time using this workflow — I've been using a plan-then-delegate approach with Cursor's agent mode in previous projects (breaking tasks into a to-do list, handing it off, then debugging), so writing a spec that an agent can follow cleanly is something I've practiced before. The familiarity helped me write a spec that left fewer ambiguities. The one area where the agent had to make its own judgment calls was the feedback-based question weighting system, where I hadn't specified exact weights. It made reasonable choices there. A more precise spec could have pinned that down, but honestly the agent's interpretation was fine.
 
 ## 3. How useful was the AI review?
 
@@ -18,4 +18,4 @@ In hindsight, my spec was already fairly detailed — the step-by-step user flow
 
 ## 5. When would I use this workflow?
 
-Plan-delegate-review works best when the project has a clear, well-defined scope and produces testable output — exactly like this quiz app. You can describe what "done" looks like, hand it off, and verify the result. It's faster than conversational back-and-forth because you skip the iterative copy-paste cycle. I'd use it for any self-contained feature or tool where I can write a complete spec upfront. It's worse for exploratory work — when I don't yet know what I want, or when I'm learning a new concept and need the AI to explain things along the way. In those cases, the conversational approach is more natural because the goal evolves as you go.
+Plan-delegate-review works best when the project has a clear, well-defined scope and produces testable output. You can describe what "done" looks like, hand it off, and verify the result. It's faster than conversational back-and-forth because you skip the iterative copy-paste cycle.
